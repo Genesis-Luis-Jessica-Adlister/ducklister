@@ -85,7 +85,7 @@
 
             <div class="vl"></div>
             <div class="right-content">
-        <div class="form-group category">
+        <div id="form-group category">
             <div class="align-p">
             <p><b>Select categories</b></p></div>
             <div id="category-error">
@@ -199,8 +199,8 @@
                 </div>
 
     </form>
+    </div>
 </div>
-
 </div>
 <jsp:include page="/WEB-INF/partials/script.jsp"/>
 <script src="/js/create-ad.js" type="module"></script>
