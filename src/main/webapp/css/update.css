@@ -8,7 +8,7 @@
 .container{
     padding: 15px;
     width: 50%;
-    height: 110%;
+    height: 115%;
     justify-content: center;
     background-color: white;
     border-radius: 15px;
@@ -114,7 +114,7 @@ content{
     /*background-color: #A2C4E0;*/
     border: 1px solid #1390E0;
     border-radius: 10px;
-    height: 50%;
+    height: 30%;
     /*justify-content: space-evenly;*/
     padding: 25px;
 }
@@ -122,6 +122,8 @@ content{
     /*width: 50%;*/
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    /*padding-right: 10px*/
 }
 h1{
     margin-left: 25px;
