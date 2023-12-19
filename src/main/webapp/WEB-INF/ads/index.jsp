@@ -12,16 +12,7 @@
     <jsp:param name="location" value="search"/>
 </jsp:include>
 
-<div class="container-fluid w-100">
-    <h1>Here Are all the ads!</h1>
-                <form action="/cat" method="post">
-                    <select id="category" name="id" type="text" >
-                        <c:forEach var="cat" items="${cats}">
-                            <option value="${cat.id}">${cat.title}</option>
-                        </c:forEach>
-                    </select>
-                    <button type="submit">Submit</button>
-                </form>
+
     <div class="container-fluid w-100">
 
         <div class=" categories-drop-down-row" style="display: flex; align-items: center">
@@ -40,12 +31,6 @@
         </div>
 
         <div class="container-fluid w-100">
-            <div class="row">
-                <div class="arrow">
-                    <img src="/assets/images/arrow-right-solid.svg" id="arrow-img">
-                </div>
-                <c:forEach var="ad" items="${ads}">
-                    <div class="post-card d-flex">
 
         <div class="row">
             <div class="arrow">

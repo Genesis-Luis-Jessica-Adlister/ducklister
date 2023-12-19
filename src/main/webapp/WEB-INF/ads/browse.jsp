@@ -13,7 +13,7 @@
 </jsp:include>
 <main class="page-wrapper">
     <div class="container" style="display: flex; flex-direction: column">
-        <div class="row header-row">
+        <div class=" header-row">
             <div class="header-wrapper">
                 <div class="page-header">
                             <h1>Browse by Category</h1>
